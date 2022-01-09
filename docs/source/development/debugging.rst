@@ -335,9 +335,9 @@ Traffic Ops
 	:caption: Remove release RPMs, then build debug RPMs
 
 	make very-clean
-	make debug traffic_stats/traffic_stats.rpm
+	make debug traffic_ops/traffic_ops.rpm
 
-.. tip:: If you have gone through the steps to :ref:`dev-building-natively`, you can run ``make debug native traffic_stats/traffic_stats.rpm`` instead of ``make debug traffic_stats/traffic_stats.rpm`` to build the RPM quickly.
+.. tip:: If you have gone through the steps to :ref:`dev-building-natively`, you can run ``make debug native traffic_ops/traffic_ops.rpm`` instead of ``make debug traffic_ops/traffic_ops.rpm`` to build the RPM quickly.
 
 * Still in ``infrastructure/cdn-in-a-box``, open ``variables.env`` and set ``TO_DEBUG_ENABLE`` to ``true``.
 
@@ -483,9 +483,9 @@ Traffic Stats
 	:caption: Remove release RPMs, then build debug RPMs
 
 	make very-clean
-	make debug traffic_ops/traffic_ops.rpm
+	make debug traffic_stats/traffic_stats.rpm
 
-.. tip:: If you have gone through the steps to :ref:`dev-building-natively`, you can run ``make debug native traffic_ops/traffic_ops.rpm`` instead of ``make debug traffic_ops/traffic_ops.rpm`` to build the RPMs quickly.
+.. tip:: If you have gone through the steps to :ref:`dev-building-natively`, you can run ``make debug native traffic_stats/traffic_stats.rpm`` instead of ``make debug traffic_stats/traffic_stats.rpm`` to build the RPMs quickly.
 
 * Still in ``infrastructure/cdn-in-a-box``, open ``variables.env`` and set ``TS_DEBUG_ENABLE`` to ``true``.
 
